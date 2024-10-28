@@ -16,7 +16,7 @@ fs.mkdirSync('traffic_accident_prediction', { recursive: true });
 fs.mkdirSync('traffic_accident_prediction/templates', { recursive: true });
 
 // Write Python script
-fs.writeFileSync('traffic_accident_prediction/app.py', `
+fs.writeFileSync('traffic_accident_prediction/app.py', 
 from flask import Flask, request, render_template
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
