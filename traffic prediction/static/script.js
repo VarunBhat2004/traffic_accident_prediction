@@ -110,8 +110,3 @@ fs.writeFileSync('traffic_accident_prediction/templates/index.html', `
 </html>
 `);
 
-// Install required Python packages
-runCommand('pip install flask scikit-learn numpy');
-
-console.log('Project setup complete. To run the server, use the following command:');
-console.log('python traffic_accident_prediction/app.py');
