@@ -1,1 +1,1 @@
-# traffic_accident_predicyion
+# traffic_accident_prediction
